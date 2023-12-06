@@ -4,7 +4,7 @@
       <h1> Wil jij gebruik maken van de studio? Volg dan eerst deze stappen: </h1>
       <p>
         Eerste keer boeken?
-        Meld je dan eerst aan via ons registratieformulier. Wij nemen na ontvangst binnen 72 uur contact met je op.
+        Meld je dan eerst aan via ons registratieformulier en wij nemen na ontvangst binnen 72 uur contact met je op.
       </p>
 
       <p>
