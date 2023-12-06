@@ -1,6 +1,6 @@
 describe('Testing form', () => {
 
-  const voornaam en achternaam = 'Testing'
+  const naam = 'Testing'
   const email = 'testing@testing.com'
   const feedback = 'Testing form using Cypress'
 
@@ -32,7 +32,7 @@ describe('Testing form', () => {
   })
 
   it('submitting feedback should redirect to /success', () => {
-    cy.get('#voornaam en achternaam').type(name)
+    cy.get('#naam').type(naam)
     cy.get('[type="email"]').type(email)
     cy.get('#feedback').type(feedback)
     cy.get('[type="verzenden"]').click()
