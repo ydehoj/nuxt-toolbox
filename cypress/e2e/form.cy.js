@@ -10,14 +10,14 @@ describe('Testing form', () => {
 
   it('check for validation message for invalid email input', () => {
     cy.get('[type="email"]').type('not_an_email')
-    cy.get('[type="submit"]').click()
+    cy.get('[type="verzenden"]').click()
     cy.get('[type="email"]').then(($input) => {
       expect($input[0].validationMessage).to.eq('Please include an \'@\' in the email address. \'not_an_email\' is missing an \'@\'.')
     })
   })
 
   it('check for validation message for no email input', () => {
-    cy.get('[type="submit"]').click()
+    cy.get('[type="verzenden"]').click()
     cy.get('[type="email"]').then(($input) => {
       expect($input[0].validationMessage).to.eq('Please fill out this field.')
     })
@@ -25,7 +25,7 @@ describe('Testing form', () => {
 
   it('check for validation message with email and no feedback', () => {
     cy.get('[type="email"]').type(email)
-    cy.get('[type="submit"]').click()
+    cy.get('[type="verzenden"]').click()
     cy.get('#feedback').then(($input) => {
       expect($input[0].validationMessage).to.eq('Please fill out this field.')
     })
@@ -35,7 +35,7 @@ describe('Testing form', () => {
     cy.get('#name').type(name)
     cy.get('[type="email"]').type(email)
     cy.get('#feedback').type(feedback)
-    cy.get('[type="submit"]').click()
+    cy.get('[type="verzenden"]').click()
    
     cy.url().should('include', '/success')
 
