@@ -19,7 +19,7 @@
       <input id="email" type="email" name="email" required />
       <label for="telefoonnummer">Telefoonnummer</label>
       <input id="telefoonnummer" type="telefoonnummer" name="telefoonnummer" required />
-      <button type="verstuur">Verstuur</button>
+      <button type="verzenden">Verzenden</button>
     </form>
   </div>
 </template>
