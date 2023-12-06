@@ -13,8 +13,8 @@
         </label>
       </p>
       <input type="hidden" name="form-name" value="feedback" />
-      <label for="voornaam en achternaam">Voornaam en Achternaam</label>
-      <input id="voornaam en achternaam" type="text" Voornaam en Achternaam="Voornaam en Achternaam" required />
+      <label for="naam">Naam</label>
+      <input id="naam" type="text" naam="naam" required />
       <label for="email">Email</label>
       <input id="email" type="email" name="email" required />
       <label for="telefoonnummer">Telefoonnummer</label>
