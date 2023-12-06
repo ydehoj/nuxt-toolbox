@@ -9,7 +9,7 @@
 
       <p>
         Al geregistreerd?
-        Boek jouw studiosessie via ons boekingssysteem op de website. Let op: alle deelnemers moeten zich afzonderlijk aanmelden.
+        Boek jouw studiosessie via ons boekingssysteem op de website. <b>Let op: alle deelnemers moeten zich afzonderlijk aanmelden.</b>
       </p> 
     </div>
     <FeedbackForm />
