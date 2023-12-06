@@ -1,12 +1,16 @@
 <template>
   <main>
     <div class="intro">
-      <h1>Nuxt Toolbox</h1>
+      <h1> Wil jij gebruik maken van de studio? Volg dan eerst deze stappen: </h1>
       <p>
-        Wil jij voor de eerste keer de studio boeken? Meld je dan eerst aan via ons registratieformulier.
-        Wij nemen hierna binnen 72 uur contact met jou op om de mogelijkheden te bespreken.
+        Eerste keer boeken?
+        Meld je dan eerst aan via ons registratieformulier. Wij nemen na ontvangst binnen 72 uur contact met je op.
       </p>
 
+      <p>
+        Al geregistreerd?
+        Boek jouw studiosessie via ons boekingssysteem op de website. Let op: alle deelnemers moeten zich afzonderlijk aanmelden.
+      </p> 
     </div>
     <FeedbackForm />
     <JokeBlock />
