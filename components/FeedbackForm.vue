@@ -13,13 +13,13 @@
         </label>
       </p>
       <input type="hidden" name="form-name" value="feedback" />
-      <label for="name">Name</label>
-      <input id="name" type="text" name="name" />
+      <label for="voornaam en achternaam">Voornaam en Achternaam</label>
+      <input id="voornaam en achternaam" type="text" Voornaam en Achternaam="Voornaam en Achternaam" required />
       <label for="email">Email</label>
       <input id="email" type="email" name="email" required />
-      <label for="feedback">What is your feedback?</label>
-      <textarea id="feedback" wrap="soft" name="feedback" required></textarea>
-      <button type="submit">Submit</button>
+      <label for="telefoonnummer">Telefoonnummer</label>
+      <input id="telefoonnummer" type="telefoonnummer" name="telefoonnummer" required />
+      <button type="verstuur">Verstuur</button>
     </form>
   </div>
 </template>
