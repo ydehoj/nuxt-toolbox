@@ -1,11 +1,8 @@
 <template>
   <main>
     <div class="intro">
-      <h1> Wil jij gebruik maken van de studio? Volg dan eerst deze stappen: </h1>
-      <p>
-        Eerste keer boeken?
-        Meld je dan eerst aan via ons registratieformulier en wij nemen na ontvangst binnen 72 uur contact met je op.
-      </p>
+      <h1> Ben jij een jonge inwoner van Schiedam tussen de 12 en 27 jaar, en heb je een geweldig idee voor een activiteit of project binnen de urban culture? </h1>
+      <p> Stuur nu jouw idee, and make the city move!</p>
 
       <p>
         Al geregistreerd?
